@@ -6,7 +6,7 @@ To design and implement a Python function for calculating the volume of a cylind
 ## PROBLEM STATEMENT:
 Design and integrate a Python function that calculates the volume of a cylinder, and enable the function to be called through a chat completion system, simulating an LLM interface
 
-DESIGN STEPS:
+## DESIGN STEPS:
 STEP 1:
 Intent Recognition: Identify user queries requiring mathematical calculations by detecting keywords (e.g., "volume," "radius") and route them to appropriate functions.
 
@@ -84,6 +84,7 @@ if __name__ == "__main__":
     user_query = "What is the volume of a cylinder with a radius of 2 cm and a height of 10 cm?"
     response = chat_with_openai(user_query)
     print(response)
+
 ```
 ## OUTPUT:
 ![388948532-ea2d3938-bb73-49e2-aa8b-03c109be4b39](https://github.com/user-attachments/assets/3c87745b-1e1b-4dd3-b924-8add215661a7)
