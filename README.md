@@ -16,7 +16,8 @@ Modular Computation: Create standalone, reusable functions for tasks (e.g., calc
 STEP 3:
 LLM Integration: Combine GPT for conversational responses with a dispatch layer to call computation functions when needed, maintaining a seamless user experience.
 
-PROGRAM:
+## PROGRAM:
+```
 import openai
 import math
 
@@ -83,9 +84,10 @@ if __name__ == "__main__":
     user_query = "What is the volume of a cylinder with a radius of 2 cm and a height of 10 cm?"
     response = chat_with_openai(user_query)
     print(response)
+```
 ## OUTPUT:
 ![388948532-ea2d3938-bb73-49e2-aa8b-03c109be4b39](https://github.com/user-attachments/assets/3c87745b-1e1b-4dd3-b924-8add215661a7)
 
 
-RESULT:
+## RESULT:
 The system can detect queries related to the volume of a cylinder and automatically invoke the function to calculate it.
